@@ -1,0 +1,100 @@
+.candidatesListContainer {
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Arial';
+}
+
+.candidatesListHeader {
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 10px;
+    background-color: rgb(155, 126, 223);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 5px;
+}
+
+.candidatesListHeader div {
+    flex: 1;
+    text-align: center;
+}
+
+.candidateItem {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: rgba(160, 160, 216, 0.459);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.addCandidateButton {
+    margin-left: 30px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(145, 64, 221, 0.747);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.addCandidateButton:hover {
+    background-color: rgb(145, 64, 221);
+}
+
+.candidatesName {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+.votesReceivedContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.votesReceived {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 40px;
+    text-align: center;
+    background-color: rgb(108, 79, 131);
+    color: white;
+    border-radius: 5px;
+}
+
+.newCandidateFormContainer {
+    font-size: 20px;
+    padding: 30px;
+    background-color: rgb(232, 214, 248);
+    margin-top: 30px;
+}
+
+.newCandidateFormContainer input {
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.quitNewCandidateForm {
+    padding: 7px;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(159, 90, 223);
+    border-radius: 50%;
+    width: 31px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.quitNewCandidateForm:hover {
+    background-color: rgb(145, 65, 221);
+}

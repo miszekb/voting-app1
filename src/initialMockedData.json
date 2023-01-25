@@ -1,0 +1,22 @@
+{
+    "voters": {
+        "76675769890":  {
+            "name": "John",
+            "hasVoted": false
+        },
+        "26138712039": {
+            "name": "Anna",
+            "hasVoted": true
+        }
+    },
+    "candidates": {
+        "76675769890":  {
+            "name": "Adam",
+            "votesReceived": 0
+        },
+        "26138712039": {
+            "name": "Alex",
+            "votesReceived": 1
+        }
+    }
+}
